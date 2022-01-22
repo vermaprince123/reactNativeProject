@@ -1,14 +1,16 @@
 import React from "react";
-import {Text, StyleSheet, TextInput} from 'react-native';
+import {Text,View,StyleSheet} from 'react-native';
+import Buttons from "./button";
 
 const Home = ()=>{
 
     return(
-        <Text style={styels.size}>
-            <h1>Home Component ----</h1>
-            <p>it is para</p>
-            <TextInput/>
-        </Text>
+        <View>
+          <Text style={styels.size}>
+            <h1>Home Component</h1>
+          </Text>
+            <Buttons/>
+          </View>
     );
 
 }
