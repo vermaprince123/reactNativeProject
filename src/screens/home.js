@@ -1,6 +1,7 @@
 import React from "react";
 import {Text,View,StyleSheet} from 'react-native';
 import Buttons from "./button";
+import ListApp from "./list";
 
 const Home = ()=>{
 
@@ -10,6 +11,7 @@ const Home = ()=>{
             <h1>Home Component</h1>
           </Text>
             <Buttons/>
+            <ListApp/>
           </View>
     );
 
