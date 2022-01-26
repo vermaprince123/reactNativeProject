@@ -1,6 +1,5 @@
 import React from "react";
 import {Text,View,StyleSheet} from 'react-native';
-import Buttons from "./button";
 import ListApp from "./list";
 
 const Home = ()=>{
@@ -8,9 +7,8 @@ const Home = ()=>{
     return(
         <View>
           <Text style={styels.size}>
-            <h1>Home Component</h1>
+            <h1>Top Ten Series</h1>
           </Text>
-            <Buttons/>
             <ListApp/>
           </View>
     );
@@ -20,7 +18,9 @@ const Home = ()=>{
 const styels = StyleSheet.create({
         size:{
             fontSize:20,
-            color:'blue'
+            color:'white',
+            textAlign:'center',
+            backgroundColor:'red'
         }
 })
 
